@@ -1,0 +1,207 @@
+* {
+    font-family: "Patrick Hand"
+}
+
+body{
+    /* background-color: #E5E5E5; */
+    background-color: #0e692d;
+
+}
+
+#logoImg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 58px;
+    left: 40px;
+    top: 40px;
+}
+
+/*Pantalla inicial*/
+
+h1{
+    display: 'block';
+    color:#ffff;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 480px;
+    font-size: 80px;
+    text-align: center;
+    font-family:"Patrick Hand"
+    
+}
+
+h2{
+    display: none;
+    color:#ffff;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 480px;
+    font-size: 80px;
+    text-align: center;
+    font-family:"Patrick Hand"
+}
+#addW{
+    display: none;
+    color:#ffff;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 480px;
+    font-size: 80px;
+    text-align: center;
+    font-family:"Patrick Hand"
+}
+#canvasDibujo{
+    display: none;
+    font-family: Inter;
+    font-size: 60px;
+    position: absolute;
+    width: 860px;
+    height: 1000px;
+    left: 400px;
+    top: 70px;
+}
+
+
+
+.btnBlanco{
+    background-color: #ffff;
+    color: #0e692d;
+    border-radius: 24px;
+    border: none;
+}
+
+.btnBlanco:hover{
+    background-color:#008afc;
+    cursor: pointer;
+}
+
+#btnIniciarJuego {
+    font-family: 'Patrick Hand';
+    font-size: 30px;
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 561px;
+    top: 402px;
+}
+
+.btnVerde{
+    background: transparent;
+    color: #ffff;;
+    border-radius: 24px;
+
+    border: 1px solid #ffff;;
+    border-radius: 24px;
+}
+
+.btnVerde:hover{
+    background-color:#df23bf;
+    cursor: pointer;
+}
+
+
+
+#btnAgregarPalabra{
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 579px;
+    top: 554px;
+
+}
+
+#btnAgregarPalabra2{
+    display: none;
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 350px;
+    top: 654px;
+
+}
+
+#btnCancelar{
+    display: none;
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 900px;
+    top: 654px;
+
+}
+
+
+#btnNuevoJuego {
+    display: none;
+    font-size: 18px;
+    position: absolute;
+    width: 332px;
+    height: 67px;
+    left: 336px;
+    top: 886px;
+}
+
+#btnDesistir{
+
+    display: none;
+    font-size: 18px;
+    position: absolute;
+    width: 332px;
+    height: 67px;
+    left: 936px;
+    top: 886px;
+
+}
+
+#btnDesistir:hover{
+    background-color:#df23bf;
+    cursor: pointer;
+}
+#textoAgregar {
+    display: none;
+    border: #fff;
+    border-style:groove;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    text-align: center;
+    text-decoration: underline;
+
+    font-size: 50px;
+    color: #fd9206;
+
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 400px;
+    top: 280px;
+    line-height: 1.5;
+}
+
+#reglaAgregar {
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    left: 340px;
+    top: 600px;
+}
+
+#rodapie{
+    position: absolute;
+    width: 1500px;
+    height: 67px;
+    top: 1000px;
+    padding-top: 50px;
+
+    text-align: center;
+    align-content: space-between;
+    font-size: 20px;
+    background-color: #0A3871;
+    color: white;
+}

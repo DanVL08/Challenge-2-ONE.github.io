@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- PANTALLA INICIAL -->
+    <h1 id="#h1">JUEGO DEL AHORCADO</h1>
+
+    <img src="images/Logo.png" alt="logo-alura" id="logoImg">
+
+        <input type="button" value="Iniciar juego" onclick="mostrarJuegoAhorcado()" id="btnIniciarJuego" class="btnBlanco">
+
+        <input type="button" value="Agregar Palabra" onclick="mostrarAgregarPalabra()" id="btnAgregarPalabra" class="btnVerde">
+
+
+    <!-- PARTE DEL JUEGO -->
+    <img src="images/Logo.png" alt="logo-alura" id="logoImg">
+
+    <canvas width="860" height="1200px" name="canvasAhorcado" id="canvasDibujo"></canvas>
+
+        <input type="button" value="Nuevo juego" id="btnNuevoJuego" class="btnBlanco" onclick="nuevoJuego()">
+
+
+
+    <input type="button" value="Desistir" onclick="desistir()" id="btnDesistir" class="btnVerde">
+
+    <p id="rodapie">Daniel Vargas López - Oracle ONE - Alura Latam - 2022</p>
+
+    <!-- PANTALLA DE AGREGAR PALABRA -->
+
+    <h2 id="#addW">Agregar Palabra</h2>
+    <img src="images/Logo.png" alt="logo" id="logoImg">
+    <textarea name="textarea1" id="textoAgregar" cols="30" rows="10">Ingrese una palabra</textarea>
+
+
+    <p id = "reglaAgregar"><img src="images/bi_exclamation-circle-fill.png" alt="bi_exclamation-circle-fill">
+        Max. 15 letras - Min 4 letras.
+    </p>
+    <input type="button" onclick="obtenerTexto()" value="Guardar y empezar" class="btnBlanco" id="btnAgregarPalabra2">
+
+    <input type="button" value="Cancelar" onclick = "mostrarPantallaInicial();" class="btnVerde" id="btnCancelar">
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
